@@ -1,0 +1,16 @@
+body {
+	background:	salmon;
+	color: black;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.Home-content-area {
+	display: block;
+	background: white;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	text-align: center;
+}
