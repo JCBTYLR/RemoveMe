@@ -33,7 +33,6 @@ body {
 
 
 .nav-items {
-	margin-left: 10px;	
 	margin-right: 25px;
 }
 
@@ -48,6 +47,11 @@ body {
 	text-align: center;
 }
 
+.tips-list {
+	list-style-type: square;
+	position: relative;
+	left: -15px;
+}
 @media all and (min-width: 960px){
 
 .Home-content-area {
@@ -57,8 +61,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
+	text-align: center;
 }
-  
+
+
 .nav-bar {
 	display: block;
 	background: white;
@@ -67,36 +73,4 @@ body {
 	margin-right: auto;
 	width: 900px;
 	text-align: center;
-	padding-top: 20px
-}
-
-.Home-paragraphs {
-	text-align: left;
-	padding-left: 50px;
-}
-
-.Home-bell-img {
-	float: right;
-	padding-right: 50px;
-	width: 150px;
-	height: 185px;
-}
-
-.Home-dollarSign-img {
-	float: right;
-	padding-right: 50px;
-	padding-bottom: 20px
-	width: 150px;
-	height: 150px;
-}
-
-.Home-whatWeDo-img {
-	float: right;
-	padding-right: 50px;
-	width: 165px;
-	height: 124px;
-}
-
-.Home-p1, .Home-p2, .Home-p3 {
-	padding-bottom: 20px;
 }
