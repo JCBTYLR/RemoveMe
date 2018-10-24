@@ -12,5 +12,40 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
+}
+
+.Home-heading {
 	text-align: center;
+	padding-top: 20px
+}
+
+.Home-paragraphs {
+	text-align: left;
+	padding-left: 50px;
+}
+
+.Home-bell-img {
+	float: right;
+	padding-right: 50px;
+	width: 150px;
+	height: 185px;
+}
+
+.Home-dollarSign-img {
+	float: right;
+	padding-right: 50px;
+	padding-bottom: 20px
+	width: 150px;
+	height: 150px;
+}
+
+.Home-whatWeDo-img {
+	float: right;
+	padding-right: 50px;
+	width: 165px;
+	height: 124px;
+}
+
+.Home-p1, .Home-p2, .Home-p3 {
+	padding-bottom: 20px;
 }
