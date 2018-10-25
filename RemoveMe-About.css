@@ -61,9 +61,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
-	text-align: center;
 }
-
 
 .nav-bar {
 	display: block;
@@ -72,5 +70,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
-	text-align: center;
+}
+
+.about-p1, .about-p2 {
+	text-align: left;
+	padding-left: 50px;
+}
+
+.tips-list {
+	text-align: left;
+	padding-left: 100px;
+}
 }
