@@ -5,36 +5,41 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-.nav {
-	position: fixed;
-	top: 2px;
-	padding-left: 20%;
-	padding-right: 20px;
-	border: 1px solid black;
-	height: 25px;
+.top-banner {
+	background: black;
+	box-shadow: 1px 1px 1px gray;
+	height: 50px;
+	margin-top: 0px;
+}
+
+.banner-text {
+	color: white;
+	position: relative;
+	text-shadow: 1px 1px gray;
+	top: 5px;
 }
 
 .nav-bar {
 	background: white;
-	position: relative;
-	top: 5px;
-	font-family: 'PT Sans', sans-serif;
 	border: 1px solid black;
+	box-shadow: 1px 1px 2px gray;
+	font-family: 'PT Sans', sans-serif;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	box-shadow: 1px 1px 2px gray;
+	position: relative;
+	top: 5px;
 }
 
 .nav-bar a {
-	color: black; 
     background-color: transparent; 
+	color: black; 
     text-decoration: none;
 }
 
 
 .nav-items {
-	margin-left: 10px;	
-	margin-right: 25px;
+	margin-left: 5px;	
+	margin-right: 5px;
 }
 
 .nav-items:hover {
@@ -42,34 +47,95 @@ body {
     text-decoration: underline;
 }
 
+.Home-heading {
+	padding-top: 10px;	
+}
+
 .Home-content-area {
-	display: block;
 	background: white;
+	border: .5	px solid gray;
+	box-shadow: 1px 1px 2px gray;
+	display: block;
 	text-align: center;
+}
+
+.Home-p1, .Home-p2, .Home-p3 {
+	margin-left: 5px;
+	margin-right: 5px; 
+}	
+
+.Home-bell-img {
+	height: auto;		
+	width: 80px;
+}
+
+.Home-dollarSign-img {
+	height: 50px;
+	padding-right: 15px;
+	padding-bottom: 10px
+	width: 80px;
+}
+
+.section-heading {
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+.mobile-constant {
+	background-color: black;
+	border-top: 2px solid gray;	
+}
+
+.white-logo {
+	height: 80px;
+	position: relative;
+	top: 2px;
+	z-index: 1;
+}
+
+.donate-now {
+	display: none;
 }
 
 @media all and (min-width: 960px){
 
-.Home-content-area {
-	display: block;
-	background: white;
-	margin-top: 50px;
+.top-banner {
+	border: 1px solid black;
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
 }
-  
+
+.banner-text {
+	margin: 0;
+}
+
 .nav-bar {
 	display: block;
 	background: white;
-	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
 	text-align: center;
-	padding-top: 20px
 }
 
+.Home-content-area {
+	background: white;
+	border: .5	px solid gray;
+	box-shadow: 1px 1px 2px gray;
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	width: 900px;
+}
+  
+.Home-heading {
+	letter-spacing: 1px;
+	padding-top: 15px;
+	text-decoration: underline;
+}
 .Home-paragraphs {
 	text-align: left;
 	padding-left: 50px;
@@ -77,9 +143,14 @@ body {
 
 .Home-bell-img {
 	float: right;
-	padding-right: 50px;
-	width: 150px;
 	height: 185px;
+	left: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 50px;
+	position: relative;
+	top: -30px;
+	width: 150px;
 }
 
 .Home-dollarSign-img {
@@ -98,5 +169,31 @@ body {
 }
 
 .Home-p1, .Home-p2, .Home-p3 {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}	
+
+.donate-constant {
+	background: black;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	bottom: 0px;
+	display: block;
+	position: fixed;
+	right: 0px;
+	width: 200px;
+	height: 45px;
+}
+
+.donate-now {
+	background-color: transparent; 
+	color: white;
+	display: block;
+	letter-spacing: .8px;
+	position: relative;
+    text-decoration: none;
+	top: 14px;
+}
+
+.mobile-constant {
+	display: none;
 }
