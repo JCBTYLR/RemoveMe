@@ -45,6 +45,7 @@ body {
 .nav-items:hover {
     color: gray;
     text-decoration: underline;
+    transition-duration: 300ms;
 }
 
 .About-heading {
@@ -196,4 +197,5 @@ body {
 
 .mobile-constant {
 	display: none;
+}
 }
